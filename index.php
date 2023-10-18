@@ -24,9 +24,3 @@
         </form>
     </body>
 </html>
-
-<!-- 
-    Starting of the server command: php -S 0.0.0.0:8888 
-
-    IP in Browser: http://localhost:8888 or http://127.0.0.1:8888 
--->
