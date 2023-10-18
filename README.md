@@ -15,13 +15,13 @@ You can now connect to http://localhost:[port] to play around.
 
 ## Injection
 
-Looking at the developer tools (Console & ) in your browser you can first try to give the funtion 3 parameters by inserting
+Looking at the developer tools (Console & ) in your browser you can first try to give the function 3 parameters by inserting
 ```
 ","
 ```
-You can see in the emelemts-section of your browser that the function has 3 elements now.
+You can see in the elements-section of your browser that the function has 3 elements now.
 
-Whe can now use this feature to try thing like an alert:
+When can now use this feature to try thing like an alert:
 ```
 ",location="javascript:alert(1)
 ```
