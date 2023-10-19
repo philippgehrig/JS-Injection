@@ -30,6 +30,25 @@ or alternativly even a redirect:
 ",window.location="https://twitter.com/thisphilipp
 ```
 
+### Injection without / ( [ ] ) '
+
+To try this, you will need to uncomment line 8:
+```php
+$xss = preg_replace('/([\(\)`\'])/','',$xss);
+```
+This will replace / ( [ ] ) ' with an empty char so we don't cheat ourselves.
+
+Fortunately we can use ASCII-Codes for the () which work the same way but won't get replaced.
+
+```
+( => \x28 
+) => \x29
+```
+Using that, we can now use our alert-injection:
+```
+",location="javascript:alert\x281\x29
+```
+
 ## Important to add
 I know that most xss forms have measures against these kind of injections and this is purely for educational purposes.
 

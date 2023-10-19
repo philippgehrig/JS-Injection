@@ -4,8 +4,9 @@
     if(isset($_GET['xss'])){
         $xss = $_GET['xss'];
     }
+    // removes acces to following chars: / ( [ ] ) '
+    //$xss = preg_replace('/([\(\)`\'])/','',$xss);
 ?>
-
 <html>
     <head>
         <script>
