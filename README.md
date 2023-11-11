@@ -1,6 +1,7 @@
 # JavaScript-Injection
 
-Today I build an php form that uses the fact that JavaScript functions can be called with more parameters than the function actually has.
+Today I build an php form that uses the fact that JavaScript functions can be called with more parameters than the function actually has. 
+
 
 ## Setup
 You need to install php for this to work. It doesn't really matter how, however I recomend usind brew:
@@ -54,4 +55,4 @@ I know that most xss forms have measures against these kind of injections and th
 
 ## Credits
 
-This was not my idea, but much rather I tried understanding a [tweet](https://twitter.com/Rhynorater/status/1696862832841916679) by Justin Gardner. 
+This was not my idea, but much rather I tried understanding a [tweet](https://twitter.com/Rhynorater/status/1696862832841916679) by Justin Gardner and some things I learned during a Web Engineering Class at my University. 
