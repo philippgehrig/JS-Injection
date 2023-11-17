@@ -1,6 +1,6 @@
 # JavaScript-Injection
 
-Today I build an php form that uses the fact that JavaScript functions can be called with more parameters than the function actually has.  
+Today I build an php form that uses the fact that JavaScript functions can be called with more parameters than the function actually has.   
 
 
 ## Setup
