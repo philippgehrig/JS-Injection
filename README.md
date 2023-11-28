@@ -2,7 +2,7 @@
  
 Today I build an php form that uses the fact that JavaScript functions can be called with more parameters than the function actually has.   
    
-  
+   
 ## Setup
 You need to install php for this to work. It doesn't really matter how, however I recomend usind brew:
 ```
