@@ -4,7 +4,7 @@ Today I build an php form that uses the fact that JavaScript functions can be ca
    
    
 ## Setup
-You need to install php for this to work. It doesn't really matter how, however I recomend usind brew:
+You need to install php for this to work. It doesn't really matter how, however I recomend using brew:
 ```
 $ brew install php
 ```
